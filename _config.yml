@@ -1,6 +1,6 @@
 # External gems
 # See http://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html for making `jekyll archives` work.
-gems:
+plugins:
   - jekyll-archives # Sorry, not GitHub pages friendly!
   - jekyll-sitemap
   - jekyll-paginate
@@ -34,7 +34,7 @@ highlightjs_theme: "monokai-sublime"
 jekyll-archives:
   enabled:
     - categories
-    - tags
+    # - tags
   layout: 'archive'
   permalinks:
     category: '/category/:name/'
